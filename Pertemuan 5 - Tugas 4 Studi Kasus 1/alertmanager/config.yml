@@ -7,5 +7,5 @@ route:
 receivers:
   - name: 'discord-notification'
     webhook_configs:
-      - url: 'https://discordapp.com/api/webhooks/1429790403426779198/t6LfTG6hAvq35AB4turLAXDoXOUvt94NnzXM1lKZN2YsZjRtOPNVFzwHauLMZDAFJosZ'
+      - url: 'http://discord-relay:9094'
         send_resolved: true
