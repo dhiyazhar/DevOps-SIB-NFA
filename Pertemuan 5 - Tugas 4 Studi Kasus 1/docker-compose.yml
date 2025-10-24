@@ -10,7 +10,7 @@ services:
             - 9090:9090
     
     alertmanager:
-        image: prom:alertmanager
+        image: prom/alertmanager
         volumes:
             - ./alertmanager/config.yml:/etc/alertmanager/config.yml
         ports:
