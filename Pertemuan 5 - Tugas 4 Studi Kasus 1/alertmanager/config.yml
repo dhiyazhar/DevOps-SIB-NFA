@@ -1,0 +1,11 @@
+global: 
+  resolve_timeout: 5m
+
+route: 
+  receiver: 'discord-notification'
+
+receivers:
+  - name: 'discord-notification'
+    webhook_configs:
+      - url: 'https://discordapp.com/api/webhooks/1429790403426779198/t6LfTG6hAvq35AB4turLAXDoXOUvt94NnzXM1lKZN2YsZjRtOPNVFzwHauLMZDAFJosZ'
+        send_resolved: true
