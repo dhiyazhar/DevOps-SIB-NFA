@@ -27,7 +27,7 @@ services:
             - 9100:9100
     
     web:
-        build: ./web-app
+        build: ./web_app
         ports:
             - 5000:5000
     
