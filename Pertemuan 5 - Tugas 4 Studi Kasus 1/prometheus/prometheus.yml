@@ -6,12 +6,12 @@ scrape_configs:
     static_configs:
       - targets: ['node-exporter:9100']
   
-  - job_name: 'web-app'
+  - job_name: 'web_app'
     static_configs:
       - targets: ['web:5000']
 
 alerting:
-  alertmanager:
+  alertmanagers:
     - static_configs:
         - targets: ['alertmanager:9093']
 
