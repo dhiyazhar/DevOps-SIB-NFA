@@ -5,7 +5,7 @@ app = Flask(__name__)
 
 @app.route('/')
 def index():
-    if random.radint(0, 10) < 2:
+    if random.randint(0, 10) < 2:
         return "Internal Server Error", 500
     return "Hello, World!", 200
 
