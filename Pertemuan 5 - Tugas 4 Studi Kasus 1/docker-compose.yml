@@ -12,7 +12,7 @@ services:
     alertmanager:
         image: prom/alertmanager
         volumes:
-            - ./alertmanager/config.yml:/etc/alertmanager/config.yml
+            - ./alertmanager/config.yml:/etc/alertmanager/alertmanager.yml
         ports:
             - 9093:9093
     
